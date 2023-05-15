@@ -5,7 +5,7 @@ function App() {
   
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Send customer info to your email here using your preferred method
+  
     console.log(customerInfo);
   };
 
@@ -22,7 +22,7 @@ function App() {
       price: 14.99,
       image: 'https://placeimg.com/640/480/nature'
     },
-    // Add 10 more articles here
+   
   ];
 
   const [selectedArticle, setSelectedArticle] = useState(null);
